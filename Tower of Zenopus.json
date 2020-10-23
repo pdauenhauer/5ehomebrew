@@ -1,0 +1,679 @@
+{
+	"type": "section",
+	"name": "Tower of Zenopus",
+	"entries": [
+		"{@b -------- Overview of the Tower and Village of Leej}",
+		"The Tower of Zenopus is partially deserted wizard tower formerly controlled by an {@b Archmage Zenopus}.  The tower was originally much more modest in nature while Zenopus grew in power at the coastal village of Leej.  The sleepy village depended primarily on fishing -- both in the freshwater of the Hool Marsh and in the coastal areas.  In the years since Zenopus gained power and departed the tower, it has become a forgotten place -- known only to a few and avoided by all.  It can be said that the wizard Keledek the Unspoken of Saltmarsh now holds sway there now, though large swathes of the area are controlled the undead remains of Leej and demonic forces within the tower itself.",
+		"Zenopus' interest in the arcane began with a curiousity of the plans of the gods.  As a young mage he came to Leej and began close study of communications with gods at the temple of St. Cuthbert in the village, while establishing a role as advisor to the town elders.  The studies were slow, and he found little inroads into direct communication and no true inisghts of the gods.  He learned about planar communication and the ability to travel vast spaces and even stop time.  Eventually, he traveled to lands far from Keoland and began learning of other gods, both good and evil.  He eventually found Kyuss, a demigod of the undead, more communicative. Over time this influence led him to study necromancy and corrupted his soul. As his power grew, so did his ambtition, and the town of Leej became fuel for his fire.  His tower grew up... and down.  The upper portion became a vast study in planar travel.  The pits below, something far more nefarious.  Zenopus had methodically sacrificed the mortals in the village, experimenting with the undead reanimation.  For this Kyuss had shown him the secrets of demonic summoning, which he perfected in the pits far below the tower.",
+		"{@b -------- Keoland's Imperial Ambition and Zenopus' Role in the Breakway of The Sea Princes}",
+		"Meanwhile Keoland's strength had waned from nearly a four decades of expansion. The kingdom had achieved control of the `lands between the mountains' and had brought a degree of civilization to the people. A century of time passed and the financial burden and political challenge of maintaining this kingdom had begun to show.  Faraway provinces had become assertive.  Corruption and incompetence had stymied the Kingdom's ability to govern. As it desperately tried to hold on to its Zenopus saw an opportunity.",
+		"Zenopus sought to create a network of powerful hidden portals that would allow him, and the undead, demonic, and cult armies at his command, to travel vast distances.  Furthermore, a sufficient sacrifice to Kyuss might allow him to break the normal laws of time.  The portals were hidden within astral pathways and numbered four: one at the tower of Zenopus itself, one at the standing stones in Saltmarsh, one in the heart of Dreadwood, and one at Abbey Isle.",
+		"Yet, the military of Keoland were still too powerful to contest openly.  Zenopus sought to destablize the region.  A convened a host of warlards to the south known as the Sea Princes, who paid fealty to Keoland, but were culturally different (chaotic culture).  With Kyuss' help he turned the Sea Princes away from Keoland, with the promise of a constant supply of slaves to Zenopus for his uses.  The war that followed led to their breakaway and eventually to the retreat of Keoland's borders to its current state as its provinces broke away one by one.",
+		"{@b -------- Downfall of Zenopus}",
+		"With his portals nearly complete, Zenopus' attention on the regional politics left him vulnerable to a threat he did not see coming.  His power had not gone unnoticed and {@b Arkon Demoncarver}, Goliath Champion of Mephistopheles, Archdevil and Lord of the eighth layer of Hell, emerged and challenged successfully overwhelmed the tower.  In a last ditch effort, Zenopus cast a time-stop spell attemped time travel through the portal to escape.  The spell had unintended consequences -- sent him to a demiplane which he could not escape and left the astral pathways around the portals precarious.",
+	  "The portals found new owners over time, that repurposed them for their own use. Arkon meanwhile, used the portal to summon devils from the Nine Hells and sought to reclaim the portal in Dreadwood.  This coincided with a war that Keoland itself to contain the threat there.  Here, {@b Nightshade} emerged, an ancient night hag the victor over {@b Arkon}, but was nearly destroyed by the Keolish forces which followed.  She retreated, through the portal, to Shadowfell until she could regain her strength.",
+	  "{@b -------- Enter Keledek the Unspoken}",
+	  "With the dispersion of Arkon's cult, the Tower of Zenopus and the remains of Leej were lost and forgotten.  Until, Keledek found a hidden treatise that talked of the tower and Zenopus' purported necromantic exploits.  Secretly he set about learning about the tower and its secrets.  He has hired adventurers and used his apprentices to delve further into the tower, his primary interest.  For the sake of finances, and to maintain a hold there, he has hired a clan of goblins as caretakers and operatives.  He stores questionable goods and uses their camp as a homebase.  He has provisioned the camp with the means to ward off the undead.  His greatest discovery so far has been the creation of what are effectively sentient zombies and has been amassing an undead military of sorts in his catacombs.  Yet his interests lie ever deeper into the tower and the magical artifacts and arcane secret it holds.",
+	  "With the portal abandoned, the lower levels of the tower have lied dormant for many years.  A smattering of the cultists of Mephistopheles returned to the tower with Arkon's bones but were hunted by a few demons that roamed the tunnels.  Though Zenopus' physical form had left the material plane, part of his essence a shard of Zenopus, remained and has kept him apprised of the happenings at the tower.  A new champion has emerged which does his bidding and has reformed a demonic force that has since started probing the goblin and undead forces outside.  Through terrible magic, this shard has been tied to the portal and has begun teleporting people, just before they die to his demiplane.",
+	  "{@b -------- Random Encounters around the Tower}",
+	  "Zenopus' encouraged creation and freeing of undead, which have wandered off into the nearby lands.  For every hex travelled around the tower, there is a {@chance 20} of a random encounter involving (add +1 for night):",
+	  {
+			"type": "table",
+			"caption": "Random Encounter",
+			"colLabels": [
+				"{@dice d6}",
+				"Monsters"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-11"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 1
+						}
+					},
+					"{@dice 1d6+2} {@creature skeleton}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 2
+						}
+					},
+					"{@dice 2d6+2} {@creature zombie}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 3,
+							"max": 4
+						}
+					},
+					"{@dice 1d3+1} {@creature ghoul} and {@dice 1d4} {@creature skeletal rats|bgdia}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 5
+						}
+					},
+					"{@dice 1d3+1} {@creature ogre skeleton|tftyp}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 6
+						}
+					},
+					"2 {@creature bodak|vgm}"
+				]
+			]
+		},
+	{
+	"type": "entries",
+			"name": "1. City Gates",
+			"entries": [
+				"Sample Text."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"A heavy set of gates might have once guarded the area that lies beyond.  A ruined tower sits on either side of the threshold with stone rubble in varying heights, mostly 3-5 ft, but some segments up to 12 ft, resembling a fortified wall.  The main road branches three ways, though a dense fog hides their destinations.  Straight ahead several large structures can be seen."
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"Inspection of the road reveals the path to the right more heavily used, though no recent tracks. There is a lack of vegetation.  The path to the left is narrower than the others."
+				]
+},
+{
+					"type": "inset",
+					"name": "Entrance description",
+					"entries": [
+						"As you get closer to the structures, they appear to be long since burned down. Their purpose is hard to tell with the remains. One building was composed of both stone and wood.  The other, only chared and rotting planks remain.",
+						"A few small houses with broken windows, no doors, and in a state that suggests immenent collapse are opposite the burnt buildings.  A fenced area lines the smaller path to the left.",
+						"Outlines of more larger structures can be seen from path straight ahead."
+					]
+				},
+
+{
+	"type": "entries",
+			"name": "2. Gardens",
+			"entries": [
+				"Sample Text."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"{@creature skeletal rats|bgdia} "
+				]
+},
+
+{
+	"type": "entries",
+			"name": "3. Noble Houses",
+			"entries": [
+				"Sample Text."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"entries": [
+						"The structures here are two storied with generally higher quality exterior woodworking. In one house a a stained glass window is intact on the second floor.  Several houses have waist-high rusted fences or the remains of a hedge. At another house a whole wall section on the second floor is missing, the iron frame of a bed is mangled up on the front lawn."
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"{@creature specter}"
+				]
+},
+
+{
+	"type": "entries",
+			"name": "4. Ruined homes"
+		},
+	{ "type": "entries",
+		"entries": [
+				"Each sub-area is a small neighborhood consisting entirely of peasant homes.  Since the fall of Leej, they are occupied with shadows.",
+				"Each area indicated on the map has differing levels of ruin.  Upon investigation, most structures are 1-3 room homes, some are single room storehouses, granaries, or other unknown purpose."
+				]
+  },
+	      {
+					"type": "inset",
+					"name": "4a",
+					"entries": [
+						"A mix of ruined stuctures lay in varyings states of disrepair.  Where the walls are still standing, a dense fog has settled into buildings layout making it impossible to see what is inside.  In several flower beds are the remains of what may have been beautiful rose bushes at one time."
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"With each check of the following, clues about {@bold Leej} can be found:",
+				"{@bold 10}: 'The homes in this area seem to be of relatively simple folk.  The belongings, though much of it deteriorating beyond recognition, suggest a meager lifestyle of fishermen, farmers, and hard-laborers'",
+				"Old household goods can be found in the homes, though many are thoroughly crusted over with the filth of time.  On a successful {@bold DC 10 Investigation} check, a fine set of silverware is found worth 15gp.  The inscription on the box reads in Common 'To Letitia, My Dearest and Only Love...'",
+				"For every 5 minutes spent investigating the homes, the party has a {@chance 10} chance in coming across {@dice 1d2} {@creature shadow} in the building, and a {@chance 20} to find a precious gem worth 10gp (Azurite, obsidian, tiger eye} or 100gp (Amber)."
+				]
+},
+{
+					"type": "inset",
+					"name": "4b",
+					"entries": [
+						"Along a stretch of several hundred feet along the main road another group of homes lies in ruin to the South.  The path runs parallel to the city walls.  Small alleyways snake through the small homes beyond site -- though a quick look suggests atleast three 'blocks' are visible."
+					]
+},
+{ "type": "entries",
+		"entries": [
+				"With each check of the following, clues about {@bold Leej} can be found:",
+				"{@bold 14}: 'A journal from a sailor found has managed to survive through the years.  Most of the entries are trivial, but the last page states: Date: Mariner's guild meeting.  {@i Tyden} to discuss with Z. the sea trade with Southern Keoland provinces. Missing Sailors.  '",
+				"For every 5 minutes spent investigating the homes, the party has a {@chance 20} chance in coming across {@dice 1d2+1} {@creature shadow} in the building, a {@chance 20} to find a precious gem worth 10gp (Azurite, obsidian, tiger eye} or 100gp (Amber), and a {@chance 10} chance to find a former adventurer with a {@item potion of healing} or {@item potion of speed}."
+				]
+},
+				{
+					"type": "inset",
+					"name": "4c",
+					"entries": [
+						"Another neighborhood of a couple dozen small homes are on either side of the main thoroughfare.  Compared to the other structures seen previously these are in better repair."
+					]
+				},
+{ "type": "entries",
+		"entries": [
+				"Each area indicated on the map has differing levels of ruin.  Upon investigation, most structures are 1-3 room homes, some are single room storehouses, granaries, or other unknown purpose.",
+				"With each check of the following, clues about {@bold Leej} can be found:",
+				"{@bold 16}: 'A brick in the hearth of home seems a bit out of place.  It is not trapped. When removed, a parchment is found that looks like notes on people.  Some are circled, some have an `X' next to them.  Only a few names are unmarked in any way. Within the single cupboard in this house a silver chalice worth 25gp is found.  On it is finely cast skull wreathed in worms'",
+				"For every 5 minutes spent investigating the homes, the party has a {@chance 20} chance in coming across {@dice 1d5+1} {@creature zombie} in the building, {@chance 50} to find up to 2 {@item potion of greater healing}, a {@chance 10} to find an adventuring group with usable breastplate, a pouch with 2 intact {@item bead of force}, or {@dice 1d6+2} {@item +2 ammunition}, or {@item cloak of protection}"
+				]
+},
+{
+	"type": "entries",
+			"name": "5. Inn: Trader's Crossroads",
+			"entries": [
+				"Sample Text."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"{@creature poltergeist}"
+				]
+		},
+
+{
+	"type": "entries",
+			"name": "6. Tradehouse",
+			"entries": [
+				"Sample Text."
+				]
+},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"{@creature skeleton}"
+				]
+		},
+
+{
+	"type": "entries",
+			"name": "7. Guard Tower",
+			"entries": [
+				"Sample Text."
+				]
+},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"{@creature wight} {@creature zombie}"
+				]
+},
+
+{
+	"type": "entries",
+			"name": "8. Ruined Mariner's Guild",
+			"entries": [
+				"Sample Text."
+				]
+	},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"Further Text."
+				]
+},
+{
+	"type": "entries",
+			"name": "9. Side path to the encampment",
+			"entries": [
+				"Sample Text."
+				]
+	},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"Further Text."
+				]
+},
+
+{
+	"type": "entries",
+			"name": "10. Tower of Zenopus Grand Entrance",
+			"entries": [
+				"Sample Text."
+				]
+	},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"Further Text."
+				]
+},
+
+{
+	"type": "entries",
+			"name": "11. Stables",
+			"entries": [
+				"Sample Text."
+				]
+	},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"Further Text."
+				]
+},
+
+{
+	"type": "entries",
+			"name": "12. Leej Town Hall",
+			"entries": [
+				"Sample Text."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"{@creature ghoul}"
+				]
+},
+
+{
+	"type": "entries",
+			"name": "13. Temple of St Cuthbert of the Cudgel / Temple of Kyuss",
+			"entries": [
+				"Sample Text."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"Further Text."
+				," "
+				]
+},
+
+{
+	"type": "entries",
+			"name": "14. Accursed Graveyard",
+			"entries": [
+				"Sample Text."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"{@creature ghast} {@creature zombie}"
+				]
+},
+
+{
+	"type": "entries",
+			"name": "15. Hostel: The Double Coin",
+			"entries": [
+				"Sample Text."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"Further Text."
+				]
+},
+
+
+{
+	"type": "entries",
+			"name": "16. Patrol Zone",
+			"entries": [
+				"Sample Text."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"Further Text."
+				]
+},
+
+{
+	"type": "entries",
+			"name": "17. Keledek's Goblin Encampment and Storehouses",
+			"entries": [
+				"This semi-permanent encampment has been in place over the last 15 years and is remotely managed under the authority of Keledek the Unspoken.  It serves as a smuggling homebase for Keledek's unique goods as much of it is not legal in Saltmarsh.  Keledek has himself, and through other groups of adventurers and his apprentices, been researching necromancy and the tower.  The inhabitants here eke out a life under his authority and are constantly fighting off the undead from the village.  More recently, a demonic presence has emerged as Keledek has delved deeper."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"The boss of the encampment is run by {@b Thargulk} {@creature hobgoblin devastator|vgm} that specializes in necromancy and is an apprentice of Keledek. He has two {@creature hobgoblin} lieutenants, {@b Glor, Zovek}.  5 {@creature bugbear} and 30 {@creature goblin} also live here and manage the operation.",
+				"Thargulk is feared amonth the inhabitants and is fiercely loyal to Keledek.  He has been promised access to the knowledge in the tower as well as a key position in the town if it can be reclaimed.  He is responsible for ensuring the catacombs are maintained (see area 18), and resupply magic for the censers in the patrol zone.",
+				""
+				]
+},
+	{
+			"type": "list",
+			"style": "list-hang",
+			"name": "Storehouse contents",
+			"items": [
+				"A hanging items list",
+				"Which has a 'name'/title, and will hang below that title"
+			]
+},
+
+	{
+			"type": "list",
+			"style": "list-hang",
+			"name": "Developments",
+			"items": [
+				"If the PCs arrived unnannounced, their intentions will be the top priority for Thargulk.  If there was a skirmish and 5 or less goblins died, Thargulk is not bothered (`they were weak').  If a larger fight occured, and the characters are not in custody, then the inhabitants remain hostile even if ordered by Thargulk. The goblins consider this area their domain. Unless there is some reason to do so, the purpose of the encampment will not be disclosed and "
+			]
+		},
+
+{
+	"type": "entries",
+			"name": "18. Catacombs of Keledek",
+			"entries": [
+				"Sample Text."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"Further Text."
+				]
+},
+
+{
+	"type": "entries",
+			"name": "19. Warehouses",
+			"entries": [
+				"Sample Text."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"Further Text."
+				]
+},
+
+
+{
+	"type": "entries",
+			"name": "20. Sea-side Entrance to Tower",
+			"entries": [
+				"Sample Text."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"Further Text."
+				]
+},
+
+{
+	"type": "entries",
+			"name": "21. Beach and Dock",
+			"entries": [
+				"The beach and dock are used jointly to take in goods or for fishing.  The goblins have an equal {@chance 20} chance to have a patrol of 3 here in gear, or a fishing crew."
+				]
+		},
+	      {
+					"type": "inset",
+					"entries": [
+						"A rickety but functional 40 foot dock extends out into the shallow bay, which appears well protected from the sea.  The bay itself is around 250 ft wide and clear for around 500 feet until towering rock formations are can be seen just off the shore.  Several 10ft by 4ft drying racks are setup on the beach and covered by old nets. A couple of large wide fish hang from these racks.  Three 10 foot skiffs with fishing gear and nets are tied up on the beach.  No boats are on the docks currently.  At the back end of the beach a water way disapears into the canyon in the direction of the tower.  A ridge overlooks the beach.  At the western end, an 8ft wide path follows a more gentle rise.  A dilapidated railing and a few inset stairs can be seen on the path."
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"If investigated the fish looks edible.  It has been salted but needs a couple days to cure.",
+				"On a {@b DC 12} Nature or Investigation check, the racks also appear to have dried kelp.  A dredging tools is found stored below the racks.",
+				"Humanoid Tracks are obvious - the area is frequently used by the creatures in the encampment.  On a {@b DC 18} Survival check, a character can identify goblin, bug bear, and hobgoblin checks."
+				]
+},
+	{
+			"type": "list",
+			"style": "list-hang",
+			"name": "Development",
+			"items": [
+				"If the PCs have not yet met the goblins here, they will be treated as hostiles.  The goblins will retreat down the path and raise the alarm.  If attacked they will put up a retreating defense, but will surrender if any one is killed.  On a {@b DC 12} Persuasion / Deception / Intimidation check, the goblins will no longer be hostile if the PCs cite a reference to Keledek why they are there.  In this case, the goblins will remain skeptical and question the party after they request that they come to the encampment to speak to the Boss."
+			]
+		},
+
+{
+	"type": "entries",
+			"name": "22. Tide 'Flats' / Foul Egress",
+			"entries": [
+				"Sample Text."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"Further Text."
+				]
+},
+
+{
+	"type": "entries",
+			"name": "23. Demonic Patrols",
+			"entries": [
+				]
+		},
+
+	      {
+					"type": "inset",
+
+					"entries": [
+						"The hilly area to the south West of the tower are moist, rocky, and sparse sickly looking vegatation.  A croak of a group toads echo loudly through the canyon. From this vantage point, the view of the tower is clearer.  Still, it reaches up and into the fog and its spire is not visible. To the coast, the land continues to rise and a structure sits at the top of a bluff.  Following your view on the water way a beach can be found.  A couple of skiffs are tied up on the beach and a small dock extends into the shallow bay.  A wider trail curls up the hill heading toward the tower. The waterway extends down the canyon towards the base of the tower."
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"On a successful {@bold DC 15} Nature skill check of the area, the vegetation can be found to be in a perpetual state of dying.",
+				"There are 8 {@creature Quasit} masquerading as toads (half) and centipedes in the area.  They have recently begun picking off some of inhabitants of the goblin encampment when separated from the group.  They observe anyone who enters the region marked on the map.  If a creature is more than 200 feet separated from other creatures, they will ambush them.  One round before this occurs, the croaking will increase ({@bold DC 18} Perception to notice) before attacking.",
+				"{@bold Strategy} The quasits prefer to stay in their current forms.  If seriously challenged, they may polymorph into bats, toads, or centipedes to retreat."
+				]
+},
+
+{
+	"type": "entries",
+			"name": "24. Ruined Lighthouse",
+			"entries": [
+				"Sample Text."
+				]
+		},
+
+	      {
+					"type": "inset",
+					"name": "City Gates",
+					"entries": [
+						"Description"
+					]
+				},
+	{ "type": "entries",
+		"entries": [
+				"Further Text."
+				]
+},
+
+	{
+			"type": "entries",
+			"name": "A Subclass Name, For Example",
+			"entries": [
+				"The above is a 'level 0' header.",
+				"The 'name' property is optional",
+				{
+					"type": "entries",
+					"name": "A Subclass Feature Name",
+					"entries": [
+						"The above is a 'level 1' header.",
+						{
+							"type": "entries",
+							"name": "A Subclass Feature Inline Header",
+							"entries": [
+								"This bold-italic inline header is a 'level 2' header, please use this as opposed to nesting tags. You can make a chain of empty entry objects with no names to get to this header level, if required.",
+								"Note that the period in the inline name is added automagically."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
