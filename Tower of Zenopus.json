@@ -44,89 +44,10 @@
 			"id": "Tower_of_Z",
 			"source": "GOS-extras",
 			"data": [
-				{
-					"type": "section",
-					"name": "Adventure Overview",
-					"entries": [
-					      "{@b -------- Overview of the Tower and Village of Leej}",
-					      "The Tower of Zenopus is partially deserted wizard tower formerly controlled by an {@b Archmage Zenopus}.  The tower was originally much more modest in nature while Zenopus grew in power at the coastal village of Leej.  The sleepy village depended primarily on fishing -- both in the freshwater of the Hool Marsh and in the coastal areas.  In the years since Zenopus gained power and departed the tower, it has become a forgotten place -- known only to a few and avoided by all.  It can be said that the wizard Keledek the Unspoken of Saltmarsh now holds sway there now, though large swathes of the area are controlled the undead remains of Leej and demonic forces within the tower itself.",
-					      "Zenopus' interest in the arcane began with a curiousity of the plans of the gods.  As a young mage he came to Leej and began close study of communications with gods at the temple of St. Cuthbert in the village, while establishing a role as advisor to the town elders.  The studies were slow, and he found little inroads into direct communication and no true inisghts of the gods.  He learned about planar communication and the ability to travel vast spaces and even stop time.  Eventually, he traveled to lands far from Keoland and began learning of other gods, both good and evil.  He eventually found Kyuss, a demigod of the undead, more communicative. Over time this influence led him to study necromancy and corrupted his soul. As his power grew, so did his ambtition, and the town of Leej became fuel for his fire.  His tower grew up... and down.  The upper portion became a vast study in planar travel.  The pits below, something far more nefarious.  Zenopus had methodically sacrificed the mortals in the village, experimenting with the undead reanimation.  For this Kyuss had shown him the secrets of demonic summoning, which he perfected in the pits far below the tower.",
-					      "{@b -------- Keoland's Imperial Ambition and Zenopus' Role in the Breakway of The Sea Princes}",
-					      "Meanwhile Keoland's strength had waned from nearly a four decades of expansion. The kingdom had achieved control of the `lands between the mountains' and had brought a degree of civilization to the people. A century of time passed and the financial burden and political challenge of maintaining this kingdom had begun to show.  Faraway provinces had become assertive.  Corruption and incompetence had stymied the Kingdom's ability to govern. As it desperately tried to hold on to its Zenopus saw an opportunity.",
-					      "Zenopus sought to create a network of powerful hidden portals that would allow him, and the undead, demonic, and cult armies at his command, to travel vast distances.  Furthermore, a sufficient sacrifice to Kyuss might allow him to break the normal laws of time.  The portals were hidden within astral pathways and numbered four: one at the tower of Zenopus itself, one at the standing stones in Saltmarsh, one in the heart of Dreadwood, and one at Abbey Isle.",
-					      "Yet, the military of Keoland were still too powerful to contest openly.  Zenopus sought to destablize the region.  A convened a host of warlards to the south known as the Sea Princes, who paid fealty to Keoland, but were culturally different (chaotic culture).  With Kyuss' help he turned the Sea Princes away from Keoland, with the promise of a constant supply of slaves to Zenopus for his uses.  The war that followed led to their breakaway and eventually to the retreat of Keoland's borders to its current state as its provinces broke away one by one.",
-					      "{@b -------- Downfall of Zenopus}",
-					      "With his portals nearly complete, Zenopus' attention on the regional politics left him vulnerable to a threat he did not see coming.  His power had not gone unnoticed and {@b Arkon Demoncarver}, Goliath Champion of Mephistopheles, Archdevil and Lord of the eighth layer of Hell, emerged and challenged successfully overwhelmed the tower.  In a last ditch effort, Zenopus cast a time-stop spell attemped time travel through the portal to escape.  The spell had unintended consequences -- sent him to a demiplane which he could not escape and left the astral pathways around the portals precarious.",
-					      "The portals found new owners over time, that repurposed them for their own use. Arkon meanwhile, used the portal to summon devils from the Nine Hells and sought to reclaim the portal in Dreadwood.  This coincided with a war that Keoland itself to contain the threat there.  Here, {@b Nightshade} emerged, an ancient night hag the victor over {@b Arkon}, but was nearly destroyed by the Keolish forces which followed.  She retreated, through the portal, to Shadowfell until she could regain her strength.",
-					      "{@b -------- Enter Keledek the Unspoken}",
-					      "With the dispersion of Arkon's cult, the Tower of Zenopus and the remains of Leej were lost and forgotten.  Until, Keledek found a hidden treatise that talked of the tower and Zenopus' purported necromantic exploits.  Secretly he set about learning about the tower and its secrets.  He has hired adventurers and used his apprentices to delve further into the tower, his primary interest.  For the sake of finances, and to maintain a hold there, he has hired a clan of goblins as caretakers and operatives.  He stores questionable goods and uses their camp as a homebase.  He has provisioned the camp with the means to ward off the undead.  His greatest discovery so far has been the creation of what are effectively sentient zombies and has been amassing an undead military of sorts in his catacombs.  Yet his interests lie ever deeper into the tower and the magical artifacts and arcane secret it holds.",
-					      "With the portal abandoned, the lower levels of the tower have lied dormant for many years.  A smattering of the cultists of Mephistopheles returned to the tower with Arkon's bones but were hunted by a few demons that roamed the tunnels.  Though Zenopus' physical form had left the material plane, part of his essence a shard of Zenopus, remained and has kept him apprised of the happenings at the tower.  A new champion has emerged which does his bidding and has reformed a demonic force that has since started probing the goblin and undead forces outside.  Through terrible magic, this shard has been tied to the portal and has begun teleporting people, just before they die to his demiplane.",
-					      "{@b -------- Random Encounters around the Tower}",
-					      "Zenopus' encouraged creation and freeing of undead, which have wandered off into the nearby lands.  For every hex travelled around the tower, there is a {@chance 20} of a random encounter involving (add +1 for night):",
-					      {
-						"type": "table",
-						"caption": "Random Encounter",
-						"colLabels": [
-						  "{@dice d6}",
-						  "Monsters"
-						],
-						"colStyles": [
-						  "col-1 text-center",
-						  "col-11"
-						],
-						"rows": [
-						  [
-						    {
-						      "type": "cell",
-						      "roll": {
-							"exact": 1
-						      }
-						    },
-						    "{@dice 1d6+2} {@creature skeleton}"
-						  ],
-						  [
-						    {
-						      "type": "cell",
-						      "roll": {
-							"exact": 2
-						      }
-						    },
-						    "{@dice 2d6+2} {@creature zombie}"
-						  ],
-						  [
-						    {
-						      "type": "cell",
-						      "roll": {
-							"min": 3,
-							"max": 4
-						      }
-						    },
-						    "{@dice 1d3+1} {@creature ghoul} and {@dice 1d4} {@creature skeletal rats|bgdia}"
-						  ],
-						  [
-						    {
-						      "type": "cell",
-						      "roll": {
-							"exact": 5
-						      }
-						    },
-						    "{@dice 1d3+1} {@creature ogre skeleton|tftyp}"
-						  ],
-						  [
-						    {
-						      "type": "cell",
-						      "roll": {
-							"exact": 6
-						      }
-						    },
-						    "2 {@creature bodak|vgm}"
-						  ]
-						]
-					      },
-					"entries": [
+				"entries": [
 						{
 							"type": "entries",
-							"name": "Introduction",
+							"name": "Adventure Summary",
 							"entries": [
 								"Originally published in 1967, \"Caverns of Catastrophe\" tells the tale of a group of characters (or actors, as they were referred to at the time), falling victim to a tragic series of events. While unpopular in the era of it's publishing, it gained notoriety throughout subsequent decades for being one of the most brutally honest adventures ever written."
 							]
