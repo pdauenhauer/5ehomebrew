@@ -44,6 +44,7 @@
 			"id": "Tower_of_Z",
 			"source": "GOS-extras",
 			"data": [
+				{
 				"entries": [
 						{
 							"type": "entries",
@@ -60,7 +61,7 @@
 							]
 						}
 					]
-				}
+				},
 				
 				{
 					"type": "section",
