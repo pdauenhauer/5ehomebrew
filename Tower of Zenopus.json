@@ -20,7 +20,7 @@
 		{
 			"name": "Tower of Zenopus",
 			"id": "Tower_of_Z",
-			"source": "GOS-Extras",
+			"source": "GOS-extras",
 			"contents": [
 				{
 					"name": "The Adventure",
@@ -41,7 +41,7 @@
 	"adventureData": [
 		{
 			"id": "Tower_of_Z",
-			"source": "GOS-Extras",
+			"source": "GOS-extras",
 			"data": [
 				{
 					"type": "section",
