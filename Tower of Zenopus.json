@@ -2,14 +2,14 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "GiddyAdventure",
+				"json": "GOS-extras",
 				"abbreviation": "Brew",
-				"full": "Sample Adventure",
+				"full": "GOS-Extras",
 				"authors": [
-					"TheGiddyLimit"
+					"PMD"
 				],
 				"version": "1.0",
-				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"url": "https://github.com/pdauenhauer/5ehomebrew/",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -18,34 +18,34 @@
 	},
 	"adventure": [
 		{
-			"name": "Caverns of Catastrophe",
-			"id": "Giddy-1",
-			"source": "GiddyAdventure",
+			"name": "Tower of Zenopus",
+			"id": "Tower_of_Z",
+			"source": "GOS-Extras",
 			"contents": [
 				{
 					"name": "The Adventure",
 					"headers": [
-						"Introduction",
-						"Story Overview"
+						"The Town of Leej",
+						"Goblin Encampment"
 					]
 				}
 			],
 			"level": {
 				"start": 1,
-				"end": 1
+				"end": 2
 			},
-			"published": "2018-07-05",
+			"published": "2020-10-05",
 			"storyline": "The End"
 		}
 	],
 	"adventureData": [
 		{
-			"id": "Giddy-1",
-			"source": "GiddyAdventure",
+			"id": "Tower_of_Z",
+			"source": "GOS-Extras",
 			"data": [
 				{
 					"type": "section",
-					"name": "The Adventure",
+					"name": "The Town of Leej",
 					"entries": [
 						{
 							"type": "entries",
